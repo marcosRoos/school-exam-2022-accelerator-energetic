@@ -1,4 +1,4 @@
-<a href="">Clique aqui para ler isto em Pt-BR</a>
+<a href="">Clique aqui para ler isto em Pt-BR</a> [Não disponível no momento]
 
 # School Exam 2022 - Accelerator Energetic (2/3)
 
