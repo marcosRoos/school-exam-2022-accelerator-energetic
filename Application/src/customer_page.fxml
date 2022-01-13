@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customerController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button layoutX="906.0" layoutY="740.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#open_home_page" prefHeight="46.0" prefWidth="269.0" text="Voltar">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="361.0" layoutY="763.0" text="Exercicio Tecnico [ Marco Antonio M. Roos ]">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="56.0" fitWidth="150.0" layoutX="25.0" layoutY="735.0">
+               <image>
+                  <Image url="@img/pucrs-logo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="label_client_name" layoutX="72.0" layoutY="28.0" prefHeight="37.0" prefWidth="1038.0" text="Fulano de tal" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="72.0" layoutY="508.0" text="Bonus:">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_bonus" layoutX="161.0" layoutY="508.0" text="0%">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <LineChart fx:id="chart" layoutX="25.0" layoutY="108.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1100.0">
+              <xAxis>
+                <CategoryAxis fx:id="table_x" prefHeight="30.0" prefWidth="1038.0" side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="table_y" prefHeight="359.0" prefWidth="32.0" side="LEFT" />
+              </yAxis>
+            </LineChart>
+            <Label layoutX="72.0" layoutY="81.0" prefHeight="27.0" prefWidth="1038.0" text="Frequencia de pedidos" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="216.0" layoutY="586.0" text="Quantidade:">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_qtt" layoutX="355.0" layoutY="586.0" text="999999">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="464.0" layoutY="552.0" text="Especifico do pedido" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="699.0" layoutY="586.0" text="Preço Unidade:">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_price_unit" layoutX="871.0" layoutY="586.0" text="R$ 4,50">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="141.0" layoutY="620.0" text="ICMS:">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_icms" layoutX="216.0" layoutY="620.0" text="18%">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="396.0" layoutY="620.0" text="IPI:">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_ipi" layoutX="441.0" layoutY="620.0" text="4%">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="600.0" layoutY="620.0" text="PIS:">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_pis" layoutX="649.0" layoutY="620.0" text="1,86%">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="824.0" layoutY="620.0" text="COFINS:">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_cofins" layoutX="935.0" layoutY="620.0" text="8,54%">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="472.0" layoutY="653.0" text="Total:">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_price_total" layoutX="541.0" layoutY="653.0" text="R$ 99999,99">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
