@@ -1,9 +1,11 @@
-<a href="">Clique aqui para ler isto em Pt-BR</a>
+<a href="">Clique aqui para ler isto em Pt-BR</a> [Não disponível no momento]
 
 # School Exam 2022 - Accelerator Energetic (2/3)
 
 ## Advice
 This is not meant to be used as a cheat, it is meant to show part of my progress, for this reason i did not announce the name of the school and neither the exam. I hope this will only be used as a reference of my coding ability as an student.
+
+<hr>
 
 ## Requirements 
 This exercise require the developer to: 
@@ -24,6 +26,22 @@ Create an algorithm to give bonuses to customers.
 
 <hr>
 
-## Links
+## Download
 
-<a href="" >Click here to download the executable</a> [Not working yet]
+<table>
+  <tr>
+    <th>OS</th>
+    <th>Version</th>
+    <th>Download</th>
+  </tr>
+  <tr>
+    <td> Windows </td>
+    <td> 0.0 </td>
+    <td> [Not available yet] </td>
+  </tr>
+  <tr>
+    <td> Linux </td>
+    <td> 0.0 </td>
+    <td> [Not available yet] </td>
+  </tr>
+</table>
