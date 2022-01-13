@@ -1,4 +1,4 @@
-<a href="">Clique aqui para ler isto em Pt-BR</a> [Não disponível no momento]
+<a href="https://github.com/marcosRoos/school-exam-2022-accelerator-energetic/blob/main/README%20pt-br.md">Clique aqui para ler isto em Pt-BR</a>
 
 # School Exam 2022 - Accelerator Energetic (2/3)
 
@@ -31,9 +31,9 @@ Create an algorithm to give bonuses to customers.
 
 ## Download
 
-You will need the openjdk and Openjfx to play this app, it was tested on ubuntu only.
-`sudo snap install openjdk`
-`sudo apt-get install openjfx`
+You will need the openjdk and Openjfx to play this app, it was tested on ubuntu only. <br>
+`sudo snap install openjdk` <br>
+`sudo apt-get install openjfx` <br><br>
 
 <table>
   <tr>
