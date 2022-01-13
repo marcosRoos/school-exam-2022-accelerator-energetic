@@ -23,10 +23,17 @@ Taxes:
 
 ## Extra
 Create an algorithm to give bonuses to customers.
++ i decided to give a 15% discount to customers which already spent 10 thousand or more in accelerator energetic at this month;
++ [ The Application already comes with 3 stores as a showcase ];
++ click twice on the budget row to see details;
 
 <hr>
 
 ## Download
+
+You will need the openjdk and Openjfx to play this app, it was tested on ubuntu only.
+`sudo snap install openjdk`
+`sudo apt-get install openjfx`
 
 <table>
   <tr>
