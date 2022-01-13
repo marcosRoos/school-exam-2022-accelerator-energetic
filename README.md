@@ -30,18 +30,13 @@ Create an algorithm to give bonuses to customers.
 
 <table>
   <tr>
-    <th>OS</th>
+    <th>Type</th>
     <th>Version</th>
     <th>Download</th>
   </tr>
   <tr>
-    <td> Windows </td>
-    <td> 0.0 </td>
-    <td> [Not available yet] </td>
-  </tr>
-  <tr>
-    <td> Linux </td>
-    <td> 0.0 </td>
-    <td> [Not available yet] </td>
+    <td> .jar </td>
+    <td> 1.0 </td>
+    <td> <a href="https://github.com/marcosRoos/school-exam-2022-accelerator-energetic/raw/main/Application.jar">[Download]</a> </td>
   </tr>
 </table>
